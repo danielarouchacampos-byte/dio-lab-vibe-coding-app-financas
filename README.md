@@ -1,4 +1,4 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# 💸 App de Guia Financeiro com Vibe Coding
 
 Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
 
@@ -70,16 +70,138 @@ Durante essa etapa, você pode orientar a IA para três entregas principais:
 
 ### 3. Entregando o Desafio na DIO
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+'''
+# PRD — App Conversacional de Organização Financeira
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+## Visão Geral
+Aplicativo de finanças pessoais baseado em conversas, permitindo registrar e acompanhar gastos e ganhos em linguagem natural, sem formulários ou planilhas.
+
+## Problema
+Aplicativos financeiros tradicionais exigem preenchimento manual e conhecimento prévio, o que gera confusão, erros frequentes e abandono por usuários iniciantes.
+
+## Solução
+Assistente financeiro conversacional que permite registrar despesas e receitas via chat, explicar gastos e oferecer recomendações simples.
+A conversação e o NLP serão realizados pela IA Gemini 2.5 Flash.
+
+## Público-Alvo
+- Iniciantes em organização financeira  
+- Jovens e adultos com renda fixa ou variável  
+- Usuários que preferem interações simples  
+- Pessoas que evitam planilhas e formulários  
+
+## Objetivos
+- Reduzir o esforço no controle financeiro  
+- Facilitar a compreensão dos gastos  
+- Incentivar hábitos financeiros saudáveis  
+- Eliminar complexidade técnica  
+
+## Princípios de Design
+- Linguagem simples e educativa  
+- Interface clara e intuitiva  
+- Boa legibilidade  
+- Nenhum conhecimento financeiro prévio exigido  
+
+## Sincronização de Estado
+O chat é o controlador do aplicativo.
+Toda interação atualiza um estado financeiro central, refletido automaticamente em relatórios e metas.
+
+## MVP
+
+### Funcionalidades
+- Chat conversacional  
+- Metas financeiras simples  
+- Relatórios visuais básicos  
+
+### Recursos Técnicos
+- Gemini 2.5 Flash (conversação e NLP)  
+- Categorização automática de gastos  
+- Recomendações financeiras básicas  
+
+### Comandos via Chat
+- Registrar gastos e ganhos  
+- Editar ou excluir registros  
+- Consultar saldo e relatórios  
+- Reiniciar controle financeiro  
+- Criar e acompanhar metas  
+
+## Experiência Conversacional
+O assistente responde de forma natural, educativa e contextualizada, confirmando ações e explicando impactos financeiros.
+
+## Validação
+- Testes com usuários iniciantes  
+- Uso contínuo por pelo menos 7 dias  
+- Coleta de feedback sobre clareza e facilidade de uso 
+'''
+
+
+
+
+Interações com o lovoble:
+
+> Crie um app de finanças pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
+
+> estou sentido falta do microfone no chat e está faltando também atualizar as metas
+
+> a IA do app é meio temosa pois peço pra apagar algo como uma reserva e ela diz que apagou só que na verdade ela ainda não apagou acredito que por problemas tecnicos ela só apago se for tudo  e, quero que apague somente as  metas. Poderia analisar prf
+
+Resultado final no lovable: https://cash-chat.lovable.app
+
+<img width="1776" height="861" alt="image" src="https://github.com/user-attachments/assets/c852cfae-4dcf-4a17-8fb8-5c6ac7b900e2" />
+
+
+Funcionalidades do App de Organização Financeira
+
+# Assistente Financeiro
+
+## Visão Geral
+Aplicação de controle financeiro pessoal baseada em chat, permitindo registrar movimentações financeiras, acompanhar saldo, definir metas e visualizar relatórios de forma simples e centralizada.
+
+## Funcionalidades
+
+### Registro de Entradas
+- Cadastro de receitas (ex.: salário).
+- Atualização automática do saldo.
+- Confirmação imediata no chat.
+
+### Registro de Saídas
+- Cadastro de despesas e gastos.
+- Desconto automático no saldo.
+- Controle básico de consumo.
+
+### Reset Financeiro
+- Zera saldo, transações, metas e reservas.
+- Permite reiniciar o planejamento financeiro do zero.
+
+### Chat Interativo
+- Interface conversacional para ações financeiras.
+- Respostas automáticas claras e objetivas.
+- Simplifica o uso do sistema.
+
+### Metas Financeiras
+- Criação e acompanhamento de objetivos financeiros.
+- Visualização do progresso das metas.
+
+### Relatórios
+- Histórico de entradas e saídas.
+- Análise do comportamento financeiro ao longo do tempo.
+
+### Navegação
+- Menu inferior com acesso rápido a:
+  - Chat
+  - Metas
+  - Relatórios
+- Interface simples e intuitiva.
+
+  
+## Reflexão
+  ### O que funcionou bem?
+  o chat inicialmente apresentou alguns bugs mais depois ele funcionou bem
+  
+  ### O que não funcionou como o esperado?  
+  As minhas metas pois, elas apresentaram algumas dificuldades na hora de passar e atulizar valores
+  
+  ### O que aprendeu sobre conversar com IAs?
+  Que elas tem um padrão de funcionamento indefinido pois, variam conforme a configução de funcionamento criada 
 
 > [!TIP]
 > Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
